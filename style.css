@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-weight: 300;
+  line-height: 1.4;
+  scroll-behavior: smooth;
+}
+.container {
+  min-height: 100vh;
+  border: 5px solid #0cc3df;
+  background-image: url(img/background.png);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size: auto;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.section {
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  font-weight: bold;
+  line-height: 50px;
+  font-size: 25px;
+}
+
+a {
+    text-decoration: underline;
+    font-size: 30px;
+    color: rgb(10, 10, 139);
+  }
+  a:hover {
+    color: #b6182a;
+    text-decoration: underline;
+  }
+
